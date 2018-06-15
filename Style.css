@@ -1,0 +1,521 @@
+@charset "UTF-8";
+/* CSS for all */
+* {
+  	
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+/*CSS for signup pages*/
+
+#bgContainer {
+    /* The image used */
+    background-image: url("Images/Sign In.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: relative;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+#signupWin {
+	width: 38%;
+	height: 80%;
+	margin: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.TopSbar {
+	
+	height: 15%;
+	width: 100%;
+	text-align: center;
+	font-size: 3.5em;
+	vertical-align: middle;
+	line-height: 80px;
+	color: #ffffff;
+
+
+}
+
+.BottomSbar {
+	
+	width: 100%;
+	height: 88%;
+	background: #F7F7F7;
+	border-radius: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+	box-shadow: 0 1px 8px 0 rgba(0,0,0,0.03);
+}
+
+.SelectTab {
+	height: 12%;
+	width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+	text-transform: uppercase;
+	color: #ffffff;
+
+
+}
+
+
+.OptionsTab {
+	height: 85%;
+	width: 100%;
+	position: absolute;
+	
+}
+
+.Op1 {
+	
+	width: 50%;
+	float: left;
+	background: #365DDB !important;
+	height: 100%;
+	border-top-left-radius: 7px;
+	text-align: center;
+	font-size: 1em;
+	vertical-align: middle;
+	line-height: 60px;
+	cursor: pointer;
+	
+	
+}
+
+.Op2 {
+	
+	width: 50%;
+	height: 100%;
+	color: #838383;
+	border-top-right-radius: 7px;
+	text-align: center;
+	font-size: 1em;
+	vertical-align: middle;
+	line-height: 60px;
+	float: right;
+	cursor: pointer;
+}
+
+
+.Op4 {
+	
+	width: 50%;
+	float: right;
+	background: #365DDB !important;
+	height: 100%;
+	border-top-right-radius: 7px;
+	text-align: center;
+	font-size: 1em;
+	vertical-align: middle;
+	line-height: 60px;
+	cursor: pointer;
+	
+}
+
+.Op3 {
+	
+	width: 50%;
+	height: 100%;
+	color: #838383;
+	border-top-right-radius: 7px;
+	text-align: center;
+	font-size: 1em;
+	vertical-align: middle;
+	line-height: 60px;
+	float: left;
+	cursor: pointer;
+}
+
+
+
+
+.LoginForm {
+	
+	height: 70%;
+	width: 80%;
+	margin: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	margin-top: 25px;
+
+	
+	
+}
+
+.LoginForm2 {
+	
+	height: 80%;
+	width: 80%;
+	margin: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	
+
+	
+	
+}
+
+.CTB { 
+	margin: 0px auto; 
+}
+
+
+
+.TBx {
+	height: 45px;
+	width: 100%;
+	padding: 3px 15px 3px 15px;
+	font-size: 14px;
+	color: #838383;
+	border-radius: 5px;
+	border-width: 1px;
+	margin-bottom: 10px;
+	border: 1px hidden #ccc;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+
+	
+	
+	
+}
+
+::placeholder {
+	color: #D2D2D2;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #D2D2D2;
+}
+
+.Bcolor {
+	color: #838383;
+}
+
+
+
+input[type=submit] {
+    width: 230px;
+    background-color: #365DDB;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+}
+
+input[type=submit]:hover {
+	
+    background-color: #838383;
+	color: #ffffff;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Mobile device screens CSS*/
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+#signupWin {
+	width: 70%;
+
+}
+	
+.TopSbar {
+	
+	height: 15%;
+	width: 100%;
+	font-size: 2em;
+
+
+
+}
+	
+	
+.BottomSbar {
+	
+	width: 100%;
+	height: 88%;
+	background: #F7F7F7;
+	border-radius: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+	box-shadow: 0 1px 8px 0 rgba(0,0,0,0.03);
+}
+
+.SelectTab {
+	height: 12%;
+	width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+
+}
+
+
+.OptionsTab {
+	height: 85%;
+	width: 100%;
+	position: absolute;
+	
+}
+
+.Op1 {
+	
+	width: 50%;
+	height: 100%;
+	border-top-left-radius: 7px;
+	font-size: 16px;
+	line-height: 50px;
+	
+}
+
+.Op2 {
+	
+	width: 50%;
+	height: 100%;
+	border-top-right-radius: 7px;
+	font-size: 16px;
+	line-height: 50px;
+
+}
+	
+	
+.Op4 {
+	
+	width: 50%;
+	height: 100%;
+	border-top-right-radius: 7px;
+	font-size: 16px;
+	line-height: 50px;
+	
+}
+
+.Op3 {
+	
+	width: 50%;
+	height: 100%;
+	border-top-right-radius: 7px;
+	font-size: 16px;
+	line-height: 50px;
+
+}
+	
+.LoginForm {
+	
+	height: 70%;
+	width: 90%;
+
+	
+	
+}
+
+	
+	
+.TBx {
+	height: 35px;
+	width: 100%;
+	padding: 2px 5px 2px 9px;
+	font-size: 11px;
+	border-radius: 3px;
+	margin-bottom: 5px;
+	box-shadow: 0 4px 7px rgba(0,0,0,0.05);
+
+	
+	
+	
+}
+	
+.Bcolor {
+	color: #838383;
+	font-size: 12px;
+}	
+	
+	
+input[type=submit] {
+    width: 130px;
+    padding: 8px 10px;
+    margin: 8px 0;
+	font-size: 13px;
+}
+
+	
+	
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+ 
+	#signupWin {
+	width: 70%;
+
+}
+
+.TopSbar {
+	
+	height: 15%;
+	width: 100%;
+	font-size: 2em;
+
+
+
+}
+	
+	
+.BottomSbar {
+	
+	width: 100%;
+	height: 88%;
+	background: #F7F7F7;
+	border-radius: 7px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+	box-shadow: 0 1px 8px 0 rgba(0,0,0,0.03);
+}
+
+.SelectTab {
+	height: 12%;
+	width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+
+}
+
+
+.OptionsTab {
+	height: 85%;
+	width: 100%;
+	position: absolute;
+	
+}
+
+.Op1 {
+	
+	width: 50%;
+	height: 100%;
+	border-top-left-radius: 7px;
+	font-size: 16px;
+	line-height: 50px;
+	
+}
+
+.Op2 {
+	
+	width: 50%;
+	height: 100%;
+	border-top-right-radius: 7px;
+	font-size: 16px;
+	line-height: 50px;
+
+}
+	
+	
+	
+.Op4 {
+	
+	width: 50%;
+	height: 100%;
+	border-top-right-radius: 7px;
+	font-size: 16px;
+	line-height: 50px;
+	
+}
+
+.Op3 {
+	
+	width: 50%;
+	height: 100%;
+	border-top-right-radius: 7px;
+	font-size: 16px;
+	line-height: 50px;
+
+}
+	
+.LoginForm {
+	
+	height: 70%;
+	width: 90%;
+
+	
+	
+}
+
+	
+	
+.TBx {
+	height: 35px;
+	width: 100%;
+	padding: 2px 5px 2px 9px;
+	font-size: 11px;
+	border-radius: 3px;
+	margin-bottom: 5px;
+	box-shadow: 0 4px 7px rgba(0,0,0,0.05);
+
+	
+	
+	
+}
+	
+.Bcolor {
+	color: #838383;
+	font-size: 12px;
+}	
+	
+	
+input[type=submit] {
+    width: 130px;
+    padding: 8px 10px;
+    margin: 8px 0;
+	font-size: 13px;
+}
+
+	
+	
+	
+	
+}
+
