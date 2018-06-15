@@ -1,0 +1,513 @@
+@charset "UTF-8";
+/*Css for all*/
+* {
+  	
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+	
+}
+
+/* CSS for General Container */
+body {
+	width: 100%;
+	background:#000000;
+	
+}
+
+
+#Bwrapper {
+	
+	display: block;
+	width: 90%;
+	height: 100%;
+	background: #ffffff;
+	margin: 0 auto;
+}
+
+
+#navb {
+	width: 100%;
+	height: 60px;
+	background: #F7F7F7;
+	
+	
+}
+
+#midContainer {
+	width: 100%;
+	height: 650px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	
+/*
+	padding: 20px 10px 20px 10px;
+		
+	background-image: url(Images/Offers.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: relative;
+*/
+	
+	
+}
+
+#InnermidContainer {
+	
+	width: 100%;
+	height: 100%;
+	padding: 20px 10px 20px 10px;
+		
+	background-image: url(Images/Offers.png);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: relative;
+	
+	
+}
+
+#footer {
+	width: 100%;
+	height: 200px;
+	clear: both;
+	
+
+	
+	
+	
+}
+
+
+.fBG {
+	
+	background-image: url(Images/Offers2.png);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: relative;
+	
+	
+}
+
+
+.Ftitle {
+	height: 90px;
+	width: 100%;
+	color: #ffffff;
+	font-size: 3em;
+	padding-top: 15px;
+	padding-bottom: 10px;
+/*	margin-bottom: 10px;*/
+	
+}
+
+.BottleF {
+	
+	width: 100%;
+/*	height: 40%;*/
+	color: #D5D6D7;
+	vertical-align: bottom;
+	
+}
+
+.middleF {
+	padding-top: 25px;
+	color: #D5D6D7;
+	padding-bottom: 10px;
+	font-weight: 200;
+/*	margin-top: 10px;*/
+}
+
+
+#navMenu {
+	width: 65%;
+	float: left;
+	height: 100%;
+	padding-left: 20px;
+	color: #838383;
+}
+
+#iconSec {
+	
+	width: 35%;
+	float: right;
+	height: 100%;
+/*	background: #AD6263;*/
+	line-height: 60px;
+	padding-top: 10px;
+	margin-top: 4px;
+	position: relative;
+/*	margin: 0 auto;*/
+	
+}
+
+
+.photo-holder {
+    bottom: 16px;
+    right: 16px;
+
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position:absolute;
+    background: #ffffff;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    padding: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+	
+
+    box-shadow: 0 0 8px rgba(255,255,255,0.5);
+    z-index: 1;
+}
+
+.TLine {
+/*	line-height: 20px;*/
+/*	margin-bottom: 10px;*/
+}
+
+.nameArea {
+	
+	float: left;
+	text-align: right;
+	width: 90%;
+	line-height: 32px;
+	color: #838383;
+
+/*	padding-top: 8px;*/
+	
+}
+
+
+.ImArea {
+	
+	float: right;
+	width: 5%;
+}
+
+
+.cImg {
+	
+	margin-bottom: 6px;
+}
+
+.MsgIcn {
+	
+	vertical-align: middle;
+	
+	
+	
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+/*    background-color: #333;*/
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #838383;
+    text-align: center;
+    padding: 22px 10px 10px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #333;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #D8441D;
+	list-style-type: none;
+	transition: all 0.2s ease 0s;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+	z-index: 2;
+}
+
+
+
+
+/*Offer CSS*/
+#LeftContainer {
+	
+	width: 50%;
+	height: 500px;
+	float: left;
+	
+}
+
+#RitContainer {
+	
+	width: 50%;
+	height: 500px;
+	float: right;
+	
+	
+}
+
+
+#OfferRide {
+	
+	margin-top: 10px;
+	width: 80%;
+	margin-right: 10px;
+	background: #F7F7F7;
+	height: 500px;
+}
+
+
+#RideTitle {
+	color: #3B3B3B;
+	font-size: 2.5em;
+	height: 80px;
+	padding: 8px 3px 5px 3px;
+	
+}
+
+#RideTitle2 {
+	color: #3B3B3B;
+	font-size: 1.5em;
+	height: 80px;
+	padding: 8px 3px 5px 3px;
+	
+}
+
+#RideForm {
+	
+	height: 300px;
+}
+
+
+
+
+
+
+
+
+input[type=submit] {
+    width: 230px;
+    background-color: #365DDB;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 20px;
+}
+
+input[type=submit]:hover {
+	
+    background-color: #838383;
+	color: #ffffff;
+	
+}
+
+
+.TBx {
+	height: 45px;
+	width: 100%;
+	padding: 3px 15px 3px 15px;
+	font-size: 14px;
+	color: #838383;
+	border-radius: 5px;
+	border-width: 1px;
+	margin-bottom: 10px;
+	border: 1px hidden #ccc;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+
+	
+	
+	
+}
+
+
+
+::placeholder {
+	color: #D2D2D2;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	color: #D2D2D2;
+}
+
+#InfoBox {
+	
+	height: 180px;
+	width: 400px;
+	margin: 0 auto;
+	background: #ffffff;
+	margin-top: 10px;
+	border-radius: 8px;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+
+}
+
+
+#upInfoBox{
+	
+	
+	height: 80px;
+	width: 90%;
+	padding: 5px;
+	color: #838383;
+	font-weight: 200;
+	font-size: 14px;
+}
+
+#DwnInfoBox{
+	
+	
+	height: 80px;
+	width: 90%;
+	padding: 5px;
+}
+
+.Price {
+	
+	
+	width: 110px;
+	height: 30px;
+	background: #365DDB;
+	color: #ffffff;
+	line-height: 30px;
+	font-size: 15px;
+	padding-left: 5px;
+	float: right;
+	font-weight: 500;
+}
+
+
+.Accpt {
+	
+	
+	width: 110px;
+	height: 30px;
+	background: #3EB244;
+	color: #ffffff;
+	line-height: 30px;
+	font-size: 15px;
+	padding-left: 5px;
+	float: right;
+	font-weight: 500;
+	cursor: pointer;
+	margin-bottom: 3px;
+	border-radius: 3px;
+	
+}
+
+
+.Rejct {
+	
+	
+	width: 110px;
+	height: 30px;
+	background:#D30E11;
+	color: #ffffff;
+	line-height: 30px;
+	font-size: 15px;
+	padding-left: 5px;
+	float: right;
+	font-weight: 500;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+
+
+
+/*Mobile device screens CSS*/
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+
+.nameArea, .MsgIcn, .ImArea {
+	display: none;
+}
+	
+.TBx {
+	height: 35px;
+	width: 100%;
+	padding: 2px 5px 2px 9px;
+	font-size: 11px;
+	border-radius: 3px;
+	margin-bottom: 5px;
+	box-shadow: 0 4px 7px rgba(0,0,0,0.05);
+
+	
+	
+	
+}
+	
+	
+	
+	
+}
+
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+	
+.TBx {
+	height: 35px;
+	width: 100%;
+	padding: 2px 5px 2px 9px;
+	font-size: 11px;
+	border-radius: 3px;
+	margin-bottom: 5px;
+	box-shadow: 0 4px 7px rgba(0,0,0,0.05);
+
+	
+	
+	
+}	
+	
+	
+}
